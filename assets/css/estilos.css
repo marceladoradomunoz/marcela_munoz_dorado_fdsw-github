@@ -28,22 +28,39 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #e8d5cc;
+}
+
+.navbar-brand {
+  width: 500px;
 }
 
 /* Contacto */
 
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
+.datos_formulario {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+  font-family: "Raleway. Light", sans-serif;
+
 }
 
-@media (max-width: 768px) {
-  #Contacto form label {
-    font-weight: 400;
-  }
+.container_4 {
+  font-family: "Raleway. Light", sans-serif;
+  text-align: center;
+  font-size: 13pt;
+  display: flex;
+  text-align: justify;
+  justify-content: center;
 
-  .navbar-brand{
-    width: 100px;
-  }
+}
 
+.text_formulario {
+  font-family: "Raleway. Light", sans-serif;
+  font-size: 15pt;
+  width: auto;
+}
+
+.text_footer {
+  width: 400px;
 }
