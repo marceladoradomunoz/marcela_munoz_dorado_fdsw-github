@@ -28,11 +28,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: #e8d5cc;
+  background-color: #439aa7;
 }
 
 .navbar-brand {
-  width: 500px;
+  width: 400px;
 }
 
 /* Contacto */
@@ -50,8 +50,6 @@ body {
   text-align: center;
   font-size: 13pt;
   display: flex;
-  text-align: justify;
-  justify-content: center;
 
 }
 
@@ -61,6 +59,26 @@ body {
   width: auto;
 }
 
+.container_5 {
+  width: 1782px !important;
+  width: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row !important;
+  background-color: black;
+  justify-content: space-evenly;
+  background-repeat: repeat-x;
+  align-items: center;
+}
+
 .text_footer {
-  width: 400px;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+}
+
+.final {
+  width: 1280pt !important;
+  background-color: black;
+  width: auto;
 }
